@@ -9,6 +9,16 @@
 // let res = commonElements(firstMassiv, secondMassiv)
 // console.log(res);
 
+// 2-misol
+// function Array(arr, coefficient) {
+//   return arr.map(num => num * coefficient)
+// }
+
+// let arr1 = [1, 2, 3, 4, 5]
+// let coefficient = 2
+// let res = Array(arr1, coefficient)
+// console.log(res);
+
 
 // 3-misol
 // function sumOfPositiveNumbers(arg) {
@@ -23,7 +33,23 @@
 
 // console.log(sumOfPositiveNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, -1, -2, -3]));
 
+// 4-misol
+// function moveZerosTond(arr) {
+//   let res = arr.filter(num => num !== 0)
+//   let zeros = arr.filter(num => num === 0)
+//   return res.concat(zeros)
+// }
 
+// let log = moveZerosTond([1, 0, 9, 0, 1, 2, 0, 1, 1])
+// console.log(log);
+
+// 6-misol
+// function flattenArray(arr) {
+//   return arr.reduce((acc, val) => acc.concat(Array.isArray(val) ? flattenArray(val) : val), [])
+// }
+// let res = flattenArray([1, [2, [3, 4], 5], [6, 7], 8])
+
+// console.log(res);
 
 // 7-misol
 // function MassivCombine(arr1, arr2) {
@@ -186,3 +212,8 @@
 // const keyToRemove = 'age'
 // const updatedObject = removeKey(books, keyToRemove)
 // console.log(updatedObject);
+
+
+
+// ### String bilan ishlash
+// 22-misol
